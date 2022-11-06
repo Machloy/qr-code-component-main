@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 500px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.component__qrImg {
+  width: 290px;
+  border-radius: 10px;
+}
+
+.component__header {
+  font-size: 22px;
+  padding: 0 20px;
+  color: hsl(218, 44%, 22%);
+}
+
+.component__paragraph {
+  color: hsl(220, 15%, 55%);
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
